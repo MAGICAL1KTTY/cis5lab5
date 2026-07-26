@@ -30,7 +30,7 @@ struct Businesscard
 	string poc;
 	double price;
 
-	Businesscard(const string &n, string &a, int num, string &wh, string &po, double p)
+	Businesscard(const string &n, string &a, int num, string &wh, string &po, double p) //move outside of structure
 		: name(n), address(a), number(num), workingHours(wh), poc(po), price(p) {}
 };
 
